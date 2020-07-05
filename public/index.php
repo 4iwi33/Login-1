@@ -66,7 +66,7 @@ $sql = (new DbEntity(
                 exit;
             } else {
                 echo "<div class='container'><h2 class='mess'>Такого пользователя не существует!</h2>
-                <a href='http://login/public/'>Вернуться на страницу регистрации</a></div>";
+                <a href='http://login/'>Вернуться на страницу регистрации</a></div>";
                 exit;
             }
         }
